@@ -29,7 +29,7 @@
             <nav class="navbar navbar-expand-lg">                
                 <div class="container">
                     <a class="navbar-brand d-flex align-items-center" href="index.html">
-                        <img src="" class="navbar-brand-image img-fluid" alt="logo">
+                        <!-- <img src="images\logo.png" class="navbar-brand-image img-fluid" alt="logo"> -->
                         <span class="navbar-brand-text">
                             DesignCulture 
                             <small>The Plywood Store</small>
@@ -55,7 +55,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">Products</a>
+                                <a class="nav-link click-scroll" href="products\products.html">Products</a>
                             </li>
 
                             <li class="nav-item">
@@ -205,10 +205,11 @@
                 <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z" stroke-width="0"></path></svg>
 
                 <div class="container">
-                    <div class="row">
+                    <div id="map"></div>
 
-                    
-                    </div>
+    <!-- prettier-ignore -->
+            <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+            ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script>
                 </div>
 
                 <svg viewBox="0 0 1265 144" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(255, 255, 255, 1)" d="M 0 40 C 164 40 164 20 328 20 L 328 20 L 328 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 327 20 C 445.5 20 445.5 89 564 89 L 564 89 L 564 0 L 327 0 Z" stroke-width="0"></path> <path fill="rgba(255, 255, 255, 1)" d="M 563 89 C 724.5 89 724.5 48 886 48 L 886 48 L 886 0 L 563 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 885 48 C 1006.5 48 1006.5 67 1128 67 L 1128 67 L 1128 0 L 885 0 Z" stroke-width="0"></path><path fill="rgba(255, 255, 255, 1)" d="M 1127 67 C 1196 67 1196 0 1265 0 L 1265 0 L 1265 0 L 1127 0 Z" stroke-width="0"></path></svg>
@@ -225,6 +226,8 @@
         <script src="js/animated-headline.js"></script>
         <script src="js/modernizr.js"></script>
         <script src="js/custom.js"></script>
+        <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.322/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/RKYTpnyYufJhyOTW/scene.splinecode"></spline-viewer> -->
 
     </body>
 </html>
